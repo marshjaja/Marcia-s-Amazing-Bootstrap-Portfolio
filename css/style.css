@@ -129,26 +129,6 @@ h1 {
 	color: rgb(236, 235, 235) !important;
 }
 
-/* .navBar a:hover::after,
-.footer a:hover::after {
-	opacity: 1;
-}
-
-.navBar a::after,
-.footer a::after {
-	content: "";
-	height: 3px;
-	width: 100%;
-	opacity: 0;
-	background-color: purple;
-	position: absolute;
-	bottom: -4px;
-	left: 0;
-	transition: all 0.2s;
-} */
-
-/* ========== NAVBAR STYLES  ========== */
-
 .display-text {
 	font-family: "Edu TAS Beginner";
 	border: 5px solid whitesmoke;
@@ -177,6 +157,32 @@ h1 {
 		font-size: 2.8rem;
 	}
 }
+/* ========== NAVBAR STYLES  ========== */
+/* ========== OVERALL SECTION  STYLES  ========== */
+
+.custom-border {
+	border-bottom: 4px solid rgb(214, 214, 214);
+	margin: 50px;
+	padding: 10px;
+	text-align: center;
+}
+/* ========== OVERALL SECTION  STYLES  ========== */
+
+/* ========== ABOUT ME SECTION  STYLES  ========== */
+
+.paragraph {
+	color: rgb(244, 243, 245);
+}
+
+.custom-button {
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #a00fc4e3;
+	border: 3px solid #9336b4;
+	color: whitesmoke;
+}
+
+/* ========== ABOUT ME SECTION  STYLES  ========== */
 
 /* ========== FOOTER STYLES  ========== */
 .devicons {
@@ -186,3 +192,5 @@ h1 {
 .contact-section {
 	background-color: #9336b4;
 }
+
+/* ========== FOOTER STYLES  ========== */
