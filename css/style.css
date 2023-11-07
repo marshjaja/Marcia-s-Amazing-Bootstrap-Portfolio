@@ -2,6 +2,15 @@ body,
 html {
 	height: 100%;
 }
+body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-weight: 200;
+	/* font-size: 1.5rem; */
+	color: #444;
+}
 
 .intro-left {
 	background: url(../images/minimal-bg.jpg);
@@ -91,5 +100,84 @@ html {
 
 	100% {
 		content: "Web Developer";
+	}
+}
+
+/*==========  LEFT SIDE STAYLES =========*/
+
+/*==========  NAVBAR/ FOOTER STAYLES =========*/
+nav {
+	background-color: #9336b4;
+	font-size: 1.5rem;
+}
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
+.navBar a {
+	color: rgb(3, 3, 3) !important;
+}
+
+.navBar a,
+.footer a {
+	color: rgb(80, 77, 77);
+	text-decoration: none;
+	position: relative;
+}
+
+.footer a:hover {
+	color: rgb(120, 118, 118) !important;
+}
+.navBar a:hover {
+	color: rgb(236, 235, 235) !important;
+}
+
+/* .navBar a:hover::after,
+.footer a:hover::after {
+	opacity: 1;
+} */
+
+.navBar a::after,
+.footer a::after {
+	content: "";
+	height: 3px;
+	width: 100%;
+	opacity: 0;
+	background-color: purple;
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	transition: all 0.2s;
+}
+
+/* ========== NAVBAR STYLES  ========== */
+
+.display-text {
+	font-family: "Edu TAS Beginner";
+	border: 5px solid whitesmoke;
+	color: whitesmoke;
+	border-radius: 50%;
+	padding: 20px;
+}
+.letter {
+	color: rgb(30, 30, 30);
+}
+/* LG */
+@media (min-width: 992px) {
+	.display-text {
+		font-size: 2rem;
+	}
+}
+/* XL */
+@media (min-width: 1200px) {
+	.display-text {
+		font-size: 2.1rem;
+	}
+}
+/* XXL */
+@media (min-width: 1400px) {
+	.display-text {
+		font-size: 2.8rem;
 	}
 }
