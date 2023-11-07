@@ -119,24 +119,21 @@ h1 {
 	color: rgb(3, 3, 3) !important;
 }
 
-.navBar a,
 .footer a {
-	color: rgb(80, 77, 77);
+	color: rgb(41, 40, 40);
 	text-decoration: none;
 	position: relative;
 }
 
+.navBar a:hover,
 .footer a:hover {
-	color: rgb(120, 118, 118) !important;
-}
-.navBar a:hover {
 	color: rgb(236, 235, 235) !important;
 }
 
 /* .navBar a:hover::after,
 .footer a:hover::after {
 	opacity: 1;
-} */
+}
 
 .navBar a::after,
 .footer a::after {
@@ -149,7 +146,7 @@ h1 {
 	bottom: -4px;
 	left: 0;
 	transition: all 0.2s;
-}
+} */
 
 /* ========== NAVBAR STYLES  ========== */
 
@@ -180,4 +177,13 @@ h1 {
 	.display-text {
 		font-size: 2.8rem;
 	}
+}
+
+/* ========== FOOTER STYLES  ========== */
+.devicons {
+	font-size: 80px;
+}
+
+.contact-section {
+	background-color: #9336b4;
 }
