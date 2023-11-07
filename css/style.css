@@ -1,0 +1,95 @@
+body,
+html {
+	height: 100%;
+}
+
+.intro-left {
+	background: url(../images/minimal-bg.jpg);
+	z-index: -9999;
+	position: fixed;
+	left: 0;
+	width: 33.3333%;
+	height: 100%;
+	color: rgb(80, 77, 77);
+}
+@media (max-width: 768px) {
+	.intro-left {
+		height: auto;
+		margin-bottom: 0;
+		position: relative;
+		width: 100%;
+	}
+}
+
+.avatar {
+	width: 8.5rem;
+	height: 8.5rem;
+	border-radius: 50%;
+	margin: 1rem;
+}
+
+.av-full-height {
+	height: 100%;
+}
+
+#change {
+	/* color: #9336b4; */
+	color: rgb(80, 77, 77);
+	/* font-size: 40px; */
+	text-transform: uppercase;
+	font-weight: 900;
+	border: 2px solid #9336b4;
+}
+@media (min-width: 768px) {
+	#change {
+		font-size: 23px;
+	}
+}
+
+@media (min-width: 992px) {
+	#change {
+		font-size: 25px;
+	}
+}
+@media (min-width: 1200px) {
+	#change {
+		font-size: 35px;
+	}
+}
+
+@media (min-width: 1400px) {
+	#change {
+		font-size: 42px;
+	}
+}
+
+#change:after {
+	content: "";
+	position: relative;
+	animation: change infinite 6s;
+}
+
+@keyframes change {
+	0% {
+		content: "Web Developer";
+	}
+	20% {
+		content: "Career Switcher";
+	}
+	40% {
+		content: "Head Pastry Chef";
+	}
+	60% {
+		content: "Crafter";
+	}
+	80% {
+		content: "Skateboarder";
+	}
+	90% {
+		content: "Footballer";
+	}
+
+	100% {
+		content: "Web Developer";
+	}
+}
