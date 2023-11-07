@@ -126,8 +126,7 @@ h1 {
 	position: relative;
 }
 
-.navBar a:hover,
-.footer a:hover {
+.navBar a:hover {
 	color: rgb(236, 235, 235) !important;
 }
 
@@ -168,9 +167,12 @@ h1 {
 	padding: 10px;
 	text-align: center;
 }
-/* .custom-border-footer {
-	border-bottom: 4px solid rgba(54, 53, 53, 0.581);
-} */
+
+.show-cv {
+	padding: 5px;
+	background-color: #9336b4;
+	border: 3 px solid red;
+}
 /* ========== OVERALL SECTION  STYLES  ========== */
 
 /* ========== ABOUT ME SECTION  STYLES  ========== */
@@ -180,11 +182,14 @@ h1 {
 }
 
 .custom-button {
-	padding: 10px;
+	padding: 5px;
 	border-radius: 10px;
-	background-color: #a00fc4e3;
-	border: 3px solid #9336b4;
+
 	color: whitesmoke;
+}
+/* Add a box shadow to buttons on hover */
+.custom-button:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* ========== ABOUT ME SECTION  STYLES  ========== */
@@ -195,6 +200,10 @@ h1 {
 }
 
 .contact-section {
+	background-color: #9336b4;
+}
+
+.show-cv a:hover {
 	background-color: #9336b4;
 }
 
